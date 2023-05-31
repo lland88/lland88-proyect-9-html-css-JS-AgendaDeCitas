@@ -1,0 +1,97 @@
+* {
+  font-size: 15px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 0.9em;
+}
+h5 {
+  font-size: 0.7em;
+}
+
+section {
+  margin: auto;
+  justify-content: center;
+  width: 50vw;
+  max-width: 400px;
+  background-color: aqua;
+}
+
+.formulario {
+  background-color: lightgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 40px;
+  min-width: 350px;
+}
+.citas {
+  background-color: lightgray;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.indicadores {
+  width: 150px;
+}
+
+input {
+  height: 20px;
+  padding: 2px;
+  margin: 0;
+  width: 200px;
+}
+
+select {
+  height: 30px;
+  padding: 2px;
+  margin: 0;
+  width: 200px;
+}
+
+textarea {
+  height: 60px;
+  text-align: start;
+  padding: 5px;
+  width: 250px;
+}
+
+.bform {
+  margin-top: 30px;
+  height: 30px;
+  width: 120px;
+}
+
+.citas {
+  display: grid;
+  grid-template-columns: repeat(2, 150px);
+  justify-content: center;
+  margin: auto;
+}
+
+.citaX {
+  margin: 10px;
+  border: 2px;
+  border-style: solid;
+}
+
+.x {
+  width: 30px;
+  height: 30px;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+}
+
+.error {
+  color: red;
+}

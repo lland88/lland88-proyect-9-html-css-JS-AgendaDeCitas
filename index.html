@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Agenda de citas</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Multiservicios el puente 2.0</h1>
+    <h2>Agenda tu cita con nosostros</h2>
+    <section>
+      <form id="formulario">
+      <div class="formulario">
+        <div class="inputs">
+          <div class="indicadores"><h3>Nombre del vehiculo:</h3></div>
+          <input type="text" name="vehiculo" id="vehiculo" />
+        </div>
+        <div class="inputs">
+          <div class="indicadores"><h3>Servicio:</h3></div>
+          <select name="servicio" id="servicio">
+            <option value="">Seleccione</option>
+            <option value="Lavado sencillo">Lavado sencillo</option>
+            <option value="Lavado completo">Lavado completo</option>
+            <option value="Cambio de aceite">Cambio de aceite</option>
+            <option value="Limpieza">Limpieza de inyectores</option>
+          </select>
+        </div>
+        <div class="inputs">
+          <div class="indicadores">
+            <h3>Fecha:</h3>
+          </div>
+          <input type="date" name="date" id="date" />
+        </div>
+        <div class="inputs">
+          <div class="indicadores"><h3>Hora de llegada:</h3></div>
+          <div>
+            <input
+              type="time"
+              name="hora"
+              id="hora"
+              min="08:00"
+              max="15:00"
+              required
+            />
+          </div>
+        </div>
+        <div class="inputs">
+          <div class="indicadores"><h3>Observaciones</h3></div>
+          <textarea name="text" id="" cols="30" rows="10"></textarea>
+        </div>
+        <button class="bform">Enviar cita</button>
+      </form>
+      </div>
+      <div class="citas">
+       
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
